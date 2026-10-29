@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or private paths (none exist currently, but for future-proofing)
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://viillora.vercel.app/sitemap.xml
